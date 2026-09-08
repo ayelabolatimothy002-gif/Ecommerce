@@ -46,6 +46,9 @@ select{
     padding-right: 60px;
    
 }
+.cot{
+    display: none;
+}
 .cart{
     display: flex;
     margin-top: 10px;
@@ -713,6 +716,12 @@ span{
     margin-bottom: 30px;
     margin-top: 20px;
 }
+.twenty-fiv{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
 .home{
     position: relative;
     background-color: rgb(181, 204, 196);
@@ -743,8 +752,6 @@ span{
     justify-content: space-around;
     border-radius:10px;
     
-
-
 }
 .twenty-nine{
   margin-top: 2pc;
@@ -782,340 +789,215 @@ span{
 
 
 
-/*media quries*/
-
+ /*media quries*/
 @media only screen and (max-width:768px){
-    /* small screen*/
-    body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: none;
-    margin: none;
+     /* small screen */ 
+   body{
+    padding:5px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 }
-    .nav{
-    display: block;
-    text-align: center;
+.nav{
+    display: none;
 }
-.stuff{
-    margin-bottom: 10px;
 
+.cot{
+    display: flex;
+    margin-left: 70px;
 }
-.white{
-    color: black;
-    text-decoration-line: none;
-    justify-content: space-between;
-}
-.white:hover{
-    color: brown;
-    border-bottom: solid 2px;
-}
+
 .form{
     display: block;
     margin-top: 10px;
-    margin-left:0px;
 }
-
+.rela{
+    display: none;
+}
 .btn{
-    color: green;
-    height: 36px;
-    border-radius: 4px;
-    margin-left: 0px;
-}
-
-
-.flex{
-    display: flex;
-    margin-top: 20px;
-   
-}
-.clo{
-    height: 25px;
-    margin-top: 3px;
-
+    display: none;
 }
 .cart{
-    margin-left: 0px;
-    margin-top: 10px;
-    position: relative;
-
-}
-.car{
-    position: absolute;
-    text-align: center;
-    border-radius: 11px;
-    height: 16px;
-    font-size:14px;
-    width: 15px;
-    color: white;
-    left: 0.7pc;
-    bottom: 25px;
-    background-color: rgb(9, 179, 9);
-}
-
-#css{
-    background-color: green;
-    height: 40px;
-    color: white;
-    /* margin-top: 6px; */
-    border-radius: 5px;
-    width: 160px;
-}
-
-
-
-.rela{
-    position: relative;
-}
-.text{
-    height:30px;
-    width:140px;
-    border: none;
-    border-radius: 7px;
-    box-shadow: 0px 0px 3px;
-    font-size: 9px;
-}
-
-
-.abs{
-    position: absolute;
-    top: 0.4px;
-    right: 0.7px;
-    height: 30px;
-    width:55px;
-    color: white;
-    background-color: green;
-    border-radius:7px;
-    border: none;
-
-    
+    display: none;
 }
 nav{
-    display: flex;
-    margin-top: 20px;
-    /* box-shadow: 0px 0px 1px; */
-    height: 60px;
-    padding: 10px;
-    justify-content: space-around;
-}
-
-.byte{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 15px;
-}
-.ent{
-    display: flex;
-}
-.fig{
-    display: flex;
-}
-span{
-    color: rgb(9, 201, 9);
-    font-size: 20px;
-}
-.os{
-    margin-left: 30px;
-
+    display: none;
 }
 .she{
-    background: url(card/ChatGPT\ Image\ Aug\ 29\,\ 2026\,\ 11_31_09\ PM.png);
-    background-position: center;
-    background-size: cover;
-    height: 450px;
-    box-shadow: 0px 0px 3px;
-    border-radius: 10px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 30px;
-}
-.deep{
-    padding-top: 60px;
-}
-/* .out{
-    margin-top: 35px;
-    height: 35px;
-    width: 230px;
-    border: none;
-    border-radius: 20px;
-    position: relative;
-}
-.ask{
-    height: 35px;
-    border: none;
-    background-color: green;
-    border-radius: 20px;
-    position: absolute;
-    top: 20px;
-} */
-
-
-.out{
-    position: relative;
-    margin-top: 30px;
-   
-}
-.sage{
-    height: 29px;
-    width: 210px;
-    border-radius: 15px;
-    border: none;
-    box-shadow: 0px 0px 3px;
-
-
-
-}
-
-.ask{
-    margin-top: -1.74rem;
-    margin-left: 8.6rem;
-}
-.style{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-.mage{
-    background-color: green;
-    border-radius:12px;
-    border: none;
-    height: 27px; 
-    color: white;
-    width: 70px;
-}
-.one{
-    display: flex;
-    margin-bottom: 30px;
+    height: 300px;
+    background-position: -100px;
 }
 .two{
-    font-size: 25px;
+    font-size: 28px;
     font-weight:bold;
-    /* margin-right: 520px; */
+     margin-left:10px; 
+     margin-bottom: 30px;
 }
-.three{
-    margin-left:20px;
+.one{
+    display: none;
 }
-.three:hover{
-    border-bottom:2px solid green;
+
+.seven{
+    display:flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
+.seven:hover{
+    box-shadow: 0px 0px 2px;
+    transform: none;
+    transition: none;
+
+}
+
 .four{
     background-color: rgb(157, 247, 157);
     height: 160px;
-    width: 100px;
+    width: 150px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius:10px;
     box-shadow: 0px 0px 4px;
+}
+.four:hover{
+    box-shadow: 0px 0px 9px;
+    transition: all 0.4s ease-out;
+    transform: scale(1.02,1.02);
 }
 .our{
     background-color:orange;
     height: 160px;
-    width: 100px;
+    width: 150px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius:10px;
     box-shadow: 0px 0px 4px;
+}
+.our:hover{
+    box-shadow: 0px 0px 9px;
+    transition: all 0.4s ease-out;
+    transform: scale(1.02,1.02);
 }
 .ur{
     background-color: rgb(84, 240, 84);
     height: 160px;
-    width: 100px;
+    width: 160px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius:10px;
     box-shadow: 0px 0px 4px;
+}
+.ur:hover{
+    box-shadow: 0px 0px 9px;
+    transition: all 0.4s ease-out;
+    transform: scale(1.02,1.02);
 }
 .fou{
     background-color:pink;
     height: 160px;
-    width: 100px;
+    width: 160px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius:10px;
     box-shadow: 0px 0px 4px;
+}
+.fou:hover{
+    box-shadow: 0px 0px 9px;
+    transition: all 0.4s ease-out;
+    transform: scale(1.02,1.02);
 }
 .fo{
     background-color:rgb(233, 197, 203);
     height: 160px;
-    width: 100px;
+    width: 160px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius:10px;
     box-shadow: 0px 0px 4px;
+}
+.fo:hover{
+    box-shadow: 0px 0px 9px;
+    transition: all 0.4s ease-out;
+    transform: scale(1.02,1.02);
 }
 .ou{
     background-color: rgb(246, 127, 246);
     height: 160px;
-    width: 100px;
+    width: 160px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius:10px;
     box-shadow: 0px 0px 4px;
+}
+.ou:hover{
+    box-shadow: 0px 0px 9px;
+    transition: all 0.4s ease-out;
+    transform: scale(1.02,1.02);
 }
 .fur{
     background-color: lime;
     height: 160px;
-    width: 100px;
+    width: 160px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius:10px;
     box-shadow: 0px 0px 4px;
+}
+.fur:hover{
+    box-shadow: 0px 0px 9px;
+    transition: all 0.4s ease-out;
+    transform: scale(1.02,1.02);
 }
 .for{
     background-color: rgb(156, 233, 156);
     height: 160px;
-    width: 100px;
+    width: 160px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius:10px;
     box-shadow: 0px 0px 4px;
 }
+.for:hover{
+    box-shadow: 0px 0px 9px;
+    transition: all 0.4s ease-out;
+    transform: scale(1.02,1.02);
+}
 .gray{
     background-color: gray;
     height: 160px;
-    width: 100px;
+    width: 160px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius:10px;
     box-shadow: 0px 0px 4px;
+}
+.gray:hover{
+    box-shadow: 0px 0px 9px;
+    transition: all 0.4s ease-out;
+    transform: scale(1.02,1.02);
 }
 
 .ray{
     background-color: rgb(248, 202, 117);
     height: 160px;
-    width: 100px;
+    width: 160px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius:10px;
     box-shadow: 0px 0px 4px;
 }
-
-
-.five{
-    margin-top: 15px;
-}
-.six{
-    font-weight: bold;
-    color: black;
-    font-size: 15px;
-}
-.seven{
-    display: flex;
-    justify-content: space-around;
-    /* width: 1340px; */
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-.seven:hover{
+.ray:hover{
     box-shadow: 0px 0px 9px;
     transition: all 0.4s ease-out;
     transform: scale(1.02,1.02);
@@ -1126,7 +1008,8 @@ span{
     background-repeat: no-repeat;
     background-size: cover;
     height: 260px;
-    width:400px;
+    width:370px;
+    margin-bottom: 20px;
     border-radius: 20px;
 }
 
@@ -1137,7 +1020,8 @@ span{
     background-repeat: no-repeat;
     background-size: cover;
     height: 260px;
-    width:400px;
+    width:370px;
+    margin-bottom: 20px;
     border-radius: 20px;
 }
 
@@ -1146,12 +1030,13 @@ span{
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
-    width:400px;
+    width:370px;
+    height: 260px;
     border-radius: 20px;
 }
 .nine{
-    justify-content: space-around;
-    display: flex;
+    display: block;
+    justify-self: center;
 }
 .tex{
     font-weight: bold;
@@ -1159,242 +1044,63 @@ span{
     margin-left: 50px;
     padding-top: 60px;
 }
-.move{
-    height: 30px;
-    width: 140px;
-    border: 10px;
-    border-radius:5px;
-    margin-left:50px;
-    margin-top:30px;
-    background-color: green;
-    color: white;
-}
-
-.axe{
-    font-size: 23px;
-    font-weight:bold;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
 .ski{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
-.bore{
-    padding-left:10px;
-    height:200px;
-}
+
+
 .eleven{
     position: relative;
    height: 360px;
-   width: 230px;
-   box-shadow: 0px 0px 1.5px;
-   margin-bottom: 50px;
-   border-radius: 14px;
-}
-.eleven:hover{
-    box-shadow: 0px 0px 9px;
-    transition: all 0.4s ease-out;
-    transform: scale(1.02,1.02);
-}
-.bug{
-    position: absolute;
-    background-color: green;
-    width: 60px;
-    height:29px;
-    color: white;
-    border-top-left-radius: 13px;
-    border-bottom-right-radius: 17px;
-    text-align: center;
-    padding-top: 6px;
-}
-.bu{
-    position: absolute;
-    background-color:rgb(32, 99, 145);
-    width: 60px;
-    height:29px;
-    color: white;
-    border-top-left-radius: 13px;
-    border-bottom-right-radius: 17px;
-    text-align: center;
-    padding-top: 6px;
-}
-.ug{
-    position: absolute;
-    background-color:rgb(179, 8, 8);
-    width: 60px;
-    height:29px;
-    color: white;
-    border-top-left-radius: 13px;
-    border-bottom-right-radius: 17px;
-    text-align: center;
-    padding-top: 6px;
-}
-.bg{
-    position: absolute;
-    background-color:rgb(190, 135, 31);
-    width: 60px;
-    height:29px;
-    color: white;
-    border-top-left-radius: 13px;
-    border-bottom-right-radius: 17px;
-    text-align: center;
-    padding-top: 6px;
-}
-.hot{
-    position: absolute;
-    left: 170px;
-    background-color:green;
-    height: 29px;
-    width: 60px;
-    color: white;
-    text-align: center;
-    padding-top: 6px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
-.hot{
-    position: absolute;
-    left: 170px;
-    background-color:green;
-    height: 29px;
-    width: 60px;
-    color: white;
-    text-align: center;
-    padding-top: 6px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
-.ten{
-    margin-left: 20px;
-    font-size: 13px;
-    margin-bottom: 8px;
-    color: dimgray;
-} 
-.twelve{
-    margin-left:20px;
-    font-weight: bold;
-    font-size: 15px;
-    margin-bottom: 8px;
-}
-.peak{
-    font-size: 13px;
-    color: rgb(255, 187, 0);
-}
-.thirteen{
-    margin-left: 20px;
-    font-size: 13px;
-    font-weight: bolder;
-    color: gray;
-}
-.crock{
-    font-size: 15px;
-    color:rgb(7, 187, 7);
-}
-.fourteen{
-    margin-left: 20px;
-    font-size: 15px;
-}
-.thirtee{
-    font-size: 13px;
-    font-weight: bolder;
-    color: rgb(172, 172, 172);
-    text-decoration: line-through;
-    
-}
-.spa{
-    color: rgb(9, 201, 9);
-    text-decoration: underline;
-    font-size: medium;
-}
-.fifteen{
-    margin-top: 10px;
-    margin-left: 20px;
-}
-.btc{
-    background-color: rgb(198, 253, 198);
-    color: rgb(13, 65, 13);
-    width: 70px;
-    border-radius: 4px;
-    border: none;
-    height:30px;
-    margin-left: 20px;
-}
-.bts{
-    background-color: rgb(153, 238, 153);
-    color: green;
-    width: 50px;
-    border-radius: 4px;
-    border: none;
-    height:30px;
-    margin-left: 9px;
-}
-.sixteen{
-    background:url(card/ChatGPT\ Image\ Sep\ 2\,\ 2026\,\ 10_23_37\ PM.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:430px;
-    width:260px;
-    border-radius: 20px;
-    padding: 30px;
-
-}
-.bingo{
-    background-color: rgb(6, 163, 6);
-    height: 35px;
-    color: white;
-    width: 110px;
-    border: none;
-    border-radius: 5px;
-    margin-top: 80px;
-}
-.seventeen{
-    display: flex;
-    justify-content: space-around;
-}
-.eleve{
-    position: relative;
-   height: 400px;
    width: 230px;
    box-shadow: 0px 0px 1px;
    margin-bottom: 50px;
    border-radius: 14px;
 }
-.eleve:hover{
-    box-shadow: 0px 0px 9px;
-    transition: all 0.4s ease-out;
-    transform: scale(1.02,1.02);
+
+.twelve{
+    margin-left:20px;
+    font-weight: bold;
+    font-size: 10px;
+    margin-bottom: 8px;
 }
-.eighteen{
-    width:210px;
-    margin-left:10px;
+.bore{
+    padding-left:20px;
+    height:200px;
 }
-.tuf{
-    justify-content: space-around;
-    display: flex;
-}
-.bing{
-    background-color: rgb(6, 163, 6);
-    height: 35px;
+.hot{
+    position: absolute;
+    left: 170px;
+    background-color:green;
+    height: 29px;
+    width: 60px;
     color: white;
-    width: 200px;
-    border: none;
-    border-radius: 5px;
-    margin-top:5px;
-    margin-left: 17px;
+    text-align: center;
+    padding-top: 6px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.seventeen{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .flee{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 90px;
 }
+
 .nineteen{
     background: url(card/bg\ 001.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 280px;
+    margin-bottom: 100px;
     width:300px;
     /* position: relative; */
     border-radius: 10px;
@@ -1406,7 +1112,410 @@ span{
     background-repeat: no-repeat;
     background-size: cover;
     height: 280px;
+    margin-bottom: 100px;
     width:300px;
+    /* position: relative; */
+    border-radius: 10px;
+    padding-top:120px;
+}
+.ninete{
+    background: url(card/bg\ 003.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 280px;
+    width:300px;
+    margin-bottom: 100px;
+    /* position: relative; */
+    border-radius: 10px;
+    padding-top:120px;
+}
+.ninet{
+    background: url(card/Background\ \(3\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 280px;
+    width:300px;
+    margin-bottom: 15px;
+    /* position: relative; */
+    border-radius: 10px;
+    padding-top:120px;
+}
+.twenty-fiv{
+    display: block;
+    justify-content: space-around;
+    margin-bottom:20px;
+    margin-top: 20px;
+    justify-items: center;
+    text-align: center;
+}
+.twenty-four{
+    display: flex;
+    margin-top: 10px;
+}
+.twenty-seven{
+    display: none;
+    position: absolute;
+    height: 230px;
+    left: 54pc;
+    top:4pc;
+}
+.twenty-nine{
+  margin-top: 2pc;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 2pc;
+}
+.twenty-eight{
+    display: flex;
+    background-color: rgb(225, 229, 230);
+    padding: 10px;
+    /* width: 220px; */
+    /* height: 70px; */
+    justify-content: space-around;
+    border-radius:10px;
+    margin-bottom: 20px;
+    
+}
+.home{
+    height: 370px;
+}
+.twenty-five{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom:20px;
+    margin-top: 20px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media queries */
+@media only screen and (max-width:1024px){
+    /* Tablet */
+body{
+    padding: 15px;
+}
+.nav{
+    display: none;
+}
+.form{
+    display: block;
+}
+.rela{
+    display: none;
+}
+.btn{
+    display: none;
+}
+.cot{
+    display: flex;
+    margin-bottom: 10px;
+}
+nav{
+    display: none;
+}
+.flex{
+    display: flex;
+    gap: 3px;
+    justify-content: space-between;
+   
+}
+.style{
+    font-size: 20px;
+}
+
+.seven:hover{
+    box-shadow: 0px 0px 2px;
+    transform: none;
+    transition: none;
+
+}
+
+.four{
+    background-color: rgb(157, 247, 157);
+    height: 160px;
+    width: 160px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius:10px;
+    box-shadow: 0px 0px 4px;
+}
+.four:hover{
+    box-shadow: 0px 0px 9px;
+    transition: all 0.4s ease-out;
+    transform: scale(1.02,1.02);
+}
+.our{
+    background-color:orange;
+    height: 160px;
+    width: 160px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius:10px;
+    box-shadow: 0px 0px 4px;
+}
+.our:hover{
+    box-shadow: 0px 0px 9px;
+    transition: all 0.4s ease-out;
+    transform: scale(1.02,1.02);
+}
+.ur{
+    background-color: rgb(84, 240, 84);
+    height: 160px;
+    width: 160px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius:10px;
+    box-shadow: 0px 0px 4px;
+}
+.ur:hover{
+    box-shadow: 0px 0px 9px;
+    transition: all 0.4s ease-out;
+    transform: scale(1.02,1.02);
+}
+.fou{
+    background-color:pink;
+    height: 160px;
+    width: 160px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius:10px;
+    box-shadow: 0px 0px 4px;
+}
+.fou:hover{
+    box-shadow: 0px 0px 9px;
+    transition: all 0.4s ease-out;
+    transform: scale(1.02,1.02);
+}
+.fo{
+    background-color:rgb(233, 197, 203);
+    height: 160px;
+    width: 160px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius:10px;
+    box-shadow: 0px 0px 4px;
+}
+.fo:hover{
+    box-shadow: 0px 0px 9px;
+    transition: all 0.4s ease-out;
+    transform: scale(1.02,1.02);
+}
+.ou{
+    background-color: rgb(246, 127, 246);
+    height: 160px;
+    width: 160px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius:10px;
+    box-shadow: 0px 0px 4px;
+}
+.ou:hover{
+    box-shadow: 0px 0px 9px;
+    transition: all 0.4s ease-out;
+    transform: scale(1.02,1.02);
+}
+.fur{
+    background-color: lime;
+    height: 160px;
+    width: 160px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius:10px;
+    box-shadow: 0px 0px 4px;
+}
+.fur:hover{
+    box-shadow: 0px 0px 9px;
+    transition: all 0.4s ease-out;
+    transform: scale(1.02,1.02);
+}
+.for{
+    background-color: rgb(156, 233, 156);
+    height: 160px;
+    width: 160px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius:10px;
+    box-shadow: 0px 0px 4px;
+}
+.for:hover{
+    box-shadow: 0px 0px 9px;
+    transition: all 0.4s ease-out;
+    transform: scale(1.02,1.02);
+}
+.gray{
+    display: none;
+    background-color: gray;
+    height: 160px;
+    width: 160px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius:10px;
+    box-shadow: 0px 0px 4px;
+}
+.gray:hover{
+    box-shadow: 0px 0px 9px;
+    transition: all 0.4s ease-out;
+    transform: scale(1.02,1.02);
+}
+
+.ray{
+    display: none;
+    background-color: rgb(248, 202, 117);
+    height: 160px;
+    width: 160px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius:10px;
+    box-shadow: 0px 0px 4px;
+}
+.ray:hover{
+    box-shadow: 0px 0px 9px;
+    transition: all 0.4s ease-out;
+    transform: scale(1.02,1.02);
+}
+.six{
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+.seven{
+    display:flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.deep{
+    padding-top: 60px;
+    margin-bottom: 80px;
+}
+.she{
+    background: url(card/ChatGPT\ Image\ Aug\ 29\,\ 2026\,\ 11_31_09\ PM.png);
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    box-shadow: 0px 0px 3px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.eight{
+    background: url(card/onion.jpeg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 260px;
+    width:360px;
+    border-radius: 20px;
+}
+
+
+.eigh{
+    background: url(card/strawberry.jpeg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 260px;
+    width:360px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.eig{
+    background: url(card/basket.jpeg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:360px;
+    height: 260px;
+    border-radius: 20px;
+}
+.nine{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap; 
+    margin-bottom: 80px;
+}
+.tex{
+    font-weight: bold;
+    font-size: 29px;
+    margin-left: 50px;
+    padding-top: 60px;
+}
+.ski{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.seventeen{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flee{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 90px;
+}
+
+.nineteen{
+    background: url(card/bg\ 001.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 280px;
+    width:300px;
+    /* position: relative; */
+    border-radius: 10px;
+    padding-top:120px;
+    margin-bottom:90px;
+}
+.ninetee{
+    background: url(card/bg\ 002.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 280px;
+    width:300px;
+    margin-bottom: 90px;
     /* position: relative; */
     border-radius: 10px;
     padding-top:120px;
@@ -1433,92 +1542,25 @@ span{
     border-radius: 10px;
     padding-top:120px;
 }
-.twenty{
-    background-color: white;
-    height:50px;
-    width: 50px;
-    text-align: center;
-    border-radius: 5px;
-}
-.twenty-one{
-    display: flex;
-    gap: 5px;
-    margin-left: 40px;
-    margin-bottom: 30px;
-}
-.twenty-two{
-    background-color:white;
-    box-shadow:0px 0px 3px;
-    padding:15px;
-    margin-left: 26px;
-    border-radius: 10px;
-    height: 130px;
-    width:250px;
-}
-.twelv{
-    font-weight: bold;
-    font-size: 14px;
-    margin-bottom: 10px;
-    color: black;
-}
-.twel{
-    font-weight: bold;
-    margin-bottom:4px;
-    font-size: 14px;
-    color: black;
-}
-.sp{
-    color: rgb(9, 201, 9);
-    text-decoration: underline;
-    font-size: medium;
-}
-.bta{
-    background-color: rgb(198, 253, 198);
-    color: rgb(13, 65, 13);
-    width: 70px;
-    border-radius: 4px;
-    border: none;
-    height:30px;
-    margin-left:40px;
-}
-
-.fiftee{
-    margin-top: 17px;
-}
-.twenty-three{
-    font-size: 23px;
-    font-weight: bold;
-}
-.twenty-four{
-    display: flex;
-    margin-top: 15px;
-}
 .twenty-five{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    margin-bottom: 30px;
+    margin-bottom:30px;
     margin-top: 20px;
-}
-.home{
-    position: relative;
-    background-color: rgb(181, 204, 196);
-    height: 300px;
-    border-radius: 10px;
-    margin-top: 30px;
-    padding-left: 2pc;
-    padding-top: 2pc;
-
-}
-.twenty-six{
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 10px;
 }
 .twenty-seven{
     position: absolute;
     height: 230px;
-    left: 54pc;
+    left: 21.7pc;
     top:4pc;
+}
+.twenty-nine{
+  margin-top: 2pc;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 2pc;
 }
 .twenty-eight{
     display: flex;
@@ -1528,18 +1570,26 @@ span{
     /* height: 70px; */
     justify-content: space-around;
     border-radius:10px;
+    margin-bottom: 30px;
     
+}
+.twenty-fiv{
+    display: block;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.twel{
+    font-size: 30px;
+}
+.pin{
+    height: 30px;
+    margin-left: 20px;
+}
 
 
-}
-.twenty-nine{
-  margin-top: 2pc;
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 2pc;
-}
-.all{
-    margin-top: 15px;
-}
+
+
+
 
 }
