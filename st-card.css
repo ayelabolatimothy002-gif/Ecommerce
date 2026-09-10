@@ -8,6 +8,9 @@ body{
     padding: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.burger{
+    position: fixed;
+}
 select{
     border: none;
 }
@@ -733,7 +736,7 @@ span{
 
 }
 .twenty-six{
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
     margin-bottom: 10px;
 }
@@ -801,13 +804,21 @@ span{
 }
 
 .cot{
-    display: flex;
-    margin-left: 70px;
+    display:flex;
+    margin-left: 6rem;
 }
 
 .form{
+    background-color:azure;
     display: block;
-    margin-top: 10px;
+    position: fixed;
+    top: 0;
+    /* left: -1rem; */
+    width: 100%;
+    margin-top: 0px;
+    margin-right:0px;
+    z-index: 50;
+    box-shadow: 0px 0px 8px;
 }
 .rela{
     display: none;
@@ -1214,12 +1225,21 @@ nav{
 @media only screen and (max-width:1024px){
     /* Tablet */
 body{
-    padding: 15px;
+    padding: 0px;
 }
 .nav{
     display: none;
 }
 .form{
+    z-index: 50;
+    position: fixed;
+    width: 100%;
+    padding: 0%;
+    margin-left: 0px;
+    margin-right: -20rem;
+    margin-top: 0px;
+    box-shadow: 0px 0px 20px;
+    background-color: rgb(240, 226, 209);
     display: block;
 }
 .rela{
@@ -1241,6 +1261,9 @@ nav{
     justify-content: space-between;
    
 }
+.she{
+    
+}
 .style{
     font-size: 20px;
 }
@@ -1255,7 +1278,7 @@ nav{
 .four{
     background-color: rgb(157, 247, 157);
     height: 160px;
-    width: 160px;
+    width: 170px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -1270,7 +1293,7 @@ nav{
 .our{
     background-color:orange;
     height: 160px;
-    width: 160px;
+    width: 170px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -1285,7 +1308,7 @@ nav{
 .ur{
     background-color: rgb(84, 240, 84);
     height: 160px;
-    width: 160px;
+    width: 170px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -1300,7 +1323,7 @@ nav{
 .fou{
     background-color:pink;
     height: 160px;
-    width: 160px;
+    width: 170px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -1580,7 +1603,7 @@ nav{
     margin-top: 20px;
 }
 .twel{
-    font-size: 30px;
+    font-size: 20px;
 }
 .pin{
     height: 30px;
